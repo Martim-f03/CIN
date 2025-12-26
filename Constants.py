@@ -26,9 +26,9 @@ METRO_SPEED_KMH = 30.0
 
 # Valores típicos para transporte público urbano
 # gramas de CO2 por km por passageiro
-CO2_PER_KM_BUS = 109.9
-CO2_PER_KM_METRO = 40 
-CO2_PER_KM_WALK = 0
+BUS_EMISSION_GCO2_PER_KM = 109.9
+METRO_EMISSION_GCO2_PER_KM = 40 
+WALK_EMISSION_GCO2_PER_KM = 0
 
 
 # -----------------------------
@@ -39,7 +39,8 @@ CO2_PER_KM_WALK = 0
 TRANSFER_PENALTY_MIN = 4.0
 
 # Penalização por entrada num novo modo
-MODE_CHANGE_PENALTY_MIN = 2.0
+MODE_CHANGE_PENALTY_MIN = 5.0
+LINE_CHANGE_PENALTY_MIN = 2.0
 
 
 # -----------------------------
