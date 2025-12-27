@@ -1,0 +1,101 @@
+=== Caso 1 ===
+>> Caminho mais rápido:
+WALK/WALK FEUP2
+STCP/11M FEP1
+STCP/204 MLAR2 - OUTE4
+STCP/404 SAL4 - VDAM - CCBR - SVT2 - DC1 - DC4
+STCP/5M PSOC2 - MPL4 - DCAS2
+[Tempo: 21.28 min, CO2: 320.50 g]
+
+>> Caminho com menos CO2:
+WALK/WALK FEUP2
+STCP/11M FEP1
+STCP/204 MLAR2 - OUTE4 - SAL2 - AUL2 - AVC2
+STCP/404 DC1 - DC4 - IANT3
+STCP/401 AANT1
+WALK/WALK __END__
+[Tempo: 27.77 min, CO2: 271.34 g]
+
+>> Caminho equilibrado (tempo+CO2):
+WALK/WALK FEUP2
+STCP/11M FEP1
+STCP/204 MLAR2 - OUTE4 - SAL2 - AUL2 - AVC2
+STCP/404 DC1 - DC4 - IANT3
+STCP/401 AANT1
+WALK/WALK __END__
+[Tempo: 27.77 min, CO2: 271.34 g]
+
+==================================================
+
+=== Caso 2 ===
+>> Caminho mais rápido:
+WALK/WALK FEUP2
+STCP/11M FEP1
+STCP/204 MLAR2 - OUTE4
+STCP/404 CCBR - SVT2 - DC1 - DC4 - IANT3
+STCP/401 AANT1 - EDRG1
+STCP/107 CRJ1
+[Tempo: 19.21 min, CO2: 306.47 g]
+
+>> Caminho com menos CO2:
+WALK/WALK FEUP2
+STCP/11M FEP1
+STCP/204 MLAR2 - OUTE4
+STCP/404 SAL4 - VDAM - CCBR - SVT2 - DC1 - DC4 - IANT3
+STCP/704 CMS5
+WALK/WALK __END__
+[Tempo: 26.43 min, CO2: 290.93 g]
+
+>> Caminho equilibrado (tempo+CO2):
+WALK/WALK FEUP2
+STCP/11M FEP1
+STCP/204 MLAR2 - OUTE4
+STCP/404 SAL4 - VDAM - CCBR - SVT2 - DC1 - DC4 - IANT3
+STCP/704 CMS5
+WALK/WALK __END__
+[Tempo: 26.43 min, CO2: 290.93 g]
+
+==================================================
+
+=== Caso 3 ===
+>> Caminho mais rápido:
+WALK/WALK FEUP2
+STCP/11M FEP1
+STCP/204 MLAR2 - OUTE4
+STCP/404 CCBR - SVT2 - DC1 - DC4 - IANT3
+STCP/401 AANT1 - EDRG1
+[Tempo: 18.08 min, CO2: 277.29 g]
+
+>> Caminho com menos CO2:
+WALK/WALK FEP1
+STCP/204 MLAR2 - OUTE4
+STCP/404 SAL4 - CCBR - SVT2 - DC1 - DC4 - IANT3
+STCP/401 AANT1
+WALK/WALK __END__
+[Tempo: 24.25 min, CO2: 219.21 g]
+
+>> Caminho equilibrado (tempo+CO2):
+WALK/WALK FEP1
+STCP/204 MLAR2 - OUTE4
+STCP/404 SAL4 - CCBR - SVT2 - DC1 - DC4 - IANT3
+STCP/401 AANT1
+WALK/WALK __END__
+[Tempo: 24.25 min, CO2: 219.21 g]
+
+==================================================
+
+=== Caso 4 ===
+>> Caminho mais rápido:
+WALK/WALK 0HSJ9
+[Tempo: 6.65 min, CO2: 0.00 g]
+
+>> Caminho com menos CO2:
+WALK/WALK 5772
+[Tempo: 7.85 min, CO2: 0.00 g]
+
+>> Caminho equilibrado (tempo+CO2):
+WALK/WALK 0HSJ9
+[Tempo: 6.65 min, CO2: 0.00 g]
+
+==================================================
+
